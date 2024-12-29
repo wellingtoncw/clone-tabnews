@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp1({ Component, pageProps }) {
   return (
@@ -11,7 +11,7 @@ function MyApp1({ Component, pageProps }) {
 
 //export default MyApp1;
 
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function MyApp({ Component, pageProps }) {
   return (
